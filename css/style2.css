@@ -995,14 +995,15 @@ textarea {
   display: flex;
 }
 
+/* Estilo do botão do WhatsApp fixo*/
 .whatsapp-fixo {
   position: fixed;
   bottom: 20px;
   right: 20px;
-  width: 60px;
-  height: 60px;
+  width: 70px;
+  height: 70px;
   background: #dce5e4;
-  color: #899c52;
+  color: #2f3519;
   border-radius: 50%;
   text-align: center;
   line-height: 60px;
@@ -1015,6 +1016,6 @@ textarea {
 }
 
 .whatsapp-fixo:hover {
-  background: #2f3519;
+  background: #899c52;
   color: #ffffff;
 }
