@@ -915,6 +915,12 @@ textarea {
   justify-content: center;
   margin-top: 30px; /* distância do slider */
   margin-bottom: 100px; /* distância do footer */
+  gap: 20px; /* Espaçamento entre os botões */
+  flex-wrap: wrap; /* Permite que os botões se movam para a próxima linha em telas menores */
+  @media (max-width: 768px) {
+    margin-top: 20px; /* distância do slider */
+    margin-bottom: 50px; /* distância do footer */
+  }
 }
 
 
