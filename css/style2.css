@@ -346,7 +346,10 @@ a {
       -webkit-transform: translate(-40%, -40%);
       -ms-transform: translate(-40%, -40%);
       transform: translate(-40%, -40%);
-      z-index: -1; }
+      z-index: -1; 
+      @media (max-width: 992px) {
+        width: 0; } }
+
     .why-choose-section .img-wrap img {
       border-radius: 20px; }
 
