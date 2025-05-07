@@ -222,6 +222,13 @@ a {
     .btn.btn-secondary:hover {
       background: #b3be62;
       border-color: #899c52; }
+      .btn.btn-three {
+        color: #e7dbc1;
+        background: #2f3519;
+        border-color: #2f3519; }
+        .btn.btn-three:hover {
+          background: #b3be62;
+          border-color: #899c52; }
   .btn.btn-white-outline {
     background: transparent;
     border-width: 2px;
