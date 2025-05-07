@@ -914,15 +914,10 @@ textarea {
   display: flex;
   justify-content: center;
   margin-top: 30px; /* distância do slider */
-  margin-bottom: 5px; /* distância do footer */
-}
-
-.btn-wrapper2 {
-  display: flex;
-  justify-content: center;
-  margin-top: 5px; /* distância do slider */
   margin-bottom: 100px; /* distância do footer */
 }
+
+
 
 .btn-slider2 {
   font-weight: 600;
