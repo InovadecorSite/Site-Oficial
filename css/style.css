@@ -218,7 +218,8 @@ a {
   .btn.btn-secondary {
     color: #e7dbc1;
     background: #899c52;
-    border-color: #899c52; }
+    border-color: #899c52;
+    margin-top: 12px; }
     .btn.btn-secondary:hover {
       background: #b3be62;
       border-color: #899c52; }
@@ -226,7 +227,8 @@ a {
         color: #fff;
         background: #444d26;
         border-color: #444d26;
-        margin-top: 12px; }
+        margin-top: 12px;
+        margin-bottom: 20px; }
         .btn.btn-three:hover {
           background: #b3be62;
           border-color: #899c52; }
