@@ -917,7 +917,7 @@ textarea {
   margin-bottom: 100px; /* distância do footer */
 }
 
-.btn-slider {
+.btn-slider2 {
   font-weight: 600;
   font-size: 20px;
   text-decoration: none;
@@ -929,38 +929,38 @@ textarea {
   transition: background 0.3s ease, border-color 0.3s ease;
 }
 
-.btn-slider:hover {
+.btn-slider2:hover {
   background: #899c52;
   border-color: #899c52;
   color: #ffffff;
 }
 
-.btn-slider:active,
-.btn-slider:focus {
+.btn-slider2:active,
+.btn-slider2:focus {
   outline: none !important;
   box-shadow: none;
 }
 
-.btn-slider2 {
+.btn-slider {
   font-weight: 600;
   font-size: 20px;
   text-decoration: none;
   padding: 12px 30px;
   border-radius: 30px;
   color: #2f3519;
-  background: #879d53;
-  border: 2px solid #879d53;
+  background: transparent;
+  border: 2px solid #2f3519;
   transition: background 0.3s ease, border-color 0.3s ease;
 }
 
-.btn-slider2:hover {
-  background: #2f3519;
-  border-color: #2f3519;
-  color: #ffffff;
+.btn-slider:hover {
+  background: #879d53;
+  border-color: #879d53;
+  color: #2f3519;
 }
 
-.btn-slider2:active,
-.btn-slider2:focus {
+.btn-slider:active,
+.btn-slider:focus {
   outline: none !important;
   box-shadow: none;
 }
