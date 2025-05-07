@@ -1002,11 +1002,11 @@ textarea {
   right: 20px;
   width: 70px;
   height: 70px;
-  background: #dce5e4;
-  color: #2f3519;
+  background: #2f3519; /* cor que era do hover */
+  color: #ffffff;       /* cor que era do hover */
   border-radius: 50%;
   text-align: center;
-  line-height: 60px;
+  line-height: 70px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1016,6 +1016,6 @@ textarea {
 }
 
 .whatsapp-fixo:hover {
-  background: #899c52;
-  color: #ffffff;
+  background: #dce5e4; /* cor que era normal */
+  color: #899c52;      /* cor que era normal */
 }
