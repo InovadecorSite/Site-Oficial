@@ -994,3 +994,27 @@ textarea {
 .lightbox:target {
   display: flex;
 }
+
+.whatsapp-fixo {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 60px;
+  height: 60px;
+  background: #dce5e4;
+  color: #899c52;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  transition: background 0.3s, color 0.3s;
+  text-decoration: none;
+}
+
+.whatsapp-fixo:hover {
+  background: #2f3519;
+  color: #ffffff;
+}
