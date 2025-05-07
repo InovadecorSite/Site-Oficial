@@ -18,7 +18,7 @@ body {
 
 /* Garantir que a largura da tela seja tratada corretamente */
 * {
-  box-sizing: border-box; /* Inclui o padding e border na largura total dos elementos */
+  box-sizing: border-box; /* Inclui o padding e border na largura total dos elementos */}
 a {
   text-decoration: none;
   -webkit-transition: .3s all ease;
