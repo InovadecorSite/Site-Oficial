@@ -235,7 +235,8 @@ a {
   .btn.btn-white-outline {
     background: transparent;
     border-width: 2px;
-    border-color: rgba(255, 255, 255, 0.3); }
+    border-color: rgba(255, 255, 255, 0.3);
+    margin-top: 15px;}
     .btn.btn-white-outline:hover {
       border-color: white;
       color: #ffffff; }
