@@ -1,9 +1,4 @@
-/*
-* Template Name: UntreeStore
-* Template Author: Untree.co
-* Author URI: https://untree.co/
-* License: https://creativecommons.org/licenses/by/3.0/
-*/
+
 body {
   margin: 0;
   font-family: 'Playfair Display', serif;
@@ -907,3 +902,27 @@ textarea {
   display: flex;
 }
 
+/* Estilo do botão do WhatsApp fixo*/
+.whatsapp-fixo {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 70px;
+  height: 70px;
+  background: #2f3519; /* cor que era do hover */
+  color: #ffffff;       /* cor que era do hover */
+  border-radius: 50%;
+  text-align: center;
+  line-height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  transition: background 0.3s, color 0.3s;
+  text-decoration: none;
+}
+
+.whatsapp-fixo:hover {
+  background: #dce5e4; /* cor que era normal */
+  color: #899c52;      /* cor que era normal */
+}

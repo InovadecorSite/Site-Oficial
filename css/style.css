@@ -941,6 +941,30 @@ textarea {
   box-shadow: none;
 }
 
+.btn-slider2 {
+  font-weight: 600;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 12px 30px;
+  border-radius: 30px;
+  color: #2f3519;
+  background: #879d53;
+  border: 2px solid #879d53;
+  transition: background 0.3s ease, border-color 0.3s ease;
+}
+
+.btn-slider2:hover {
+  background: #2f3519;
+  border-color: #2f3519;
+  color: #ffffff;
+}
+
+.btn-slider2:active,
+.btn-slider2:focus {
+  outline: none !important;
+  box-shadow: none;
+}
+
 /* Imagem em tela cheia */
 .lightbox {
   display: none;
@@ -963,4 +987,29 @@ textarea {
 
 .lightbox:target {
   display: flex;
+}
+
+/* Estilo do botão do WhatsApp fixo*/
+.whatsapp-fixo {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 70px;
+  height: 70px;
+  background: #2f3519; /* cor que era do hover */
+  color: #ffffff;       /* cor que era do hover */
+  border-radius: 50%;
+  text-align: center;
+  line-height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  transition: background 0.3s, color 0.3s;
+  text-decoration: none;
+}
+
+.whatsapp-fixo:hover {
+  background: #dce5e4; /* cor que era normal */
+  color: #899c52;      /* cor que era normal */
 }
