@@ -177,7 +177,7 @@ a {
         .hero .hero-img-wrap:after {
           top: -40px; } }
 
-          @media (max-width: 768px) { /* Limita o estilo apenas para telas menores que 768px */
+          @media (max-width: 992px) { /* Limita o estilo apenas para telas menores que 768px */
             .hero .row {
               display: flex; /* Ativa o Flexbox */
               flex-wrap: wrap; /* Permite quebra de linha */
