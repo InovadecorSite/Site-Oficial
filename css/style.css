@@ -1036,3 +1036,45 @@ textarea {
   background: #dce5e4; /* cor que era normal */
   color: #899c52;      /* cor que era normal */
 }
+
+/* HERO responsivo para tablet e celular (até 992px) */
+@media (max-width: 992px) {
+  .hero {
+    min-height: 40vh !important;
+    padding: 2rem 0 1rem 0 !important;
+    height: auto !important;
+  }
+  .hero .row {
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+  .hero .col-lg-7,
+  .hero .col-lg-5 {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+  .hero .intro-excerpt {
+    margin-top: 0 !important;
+    text-align: center !important;
+    max-width: 100% !important;
+    padding: 1rem 0 !important;
+  }
+  .hero h1 {
+    font-size: 2rem !important;
+  }
+  .slider-wrap,
+  .slider-container,
+  .blurred-background,
+  .bg-img {
+    height: 120px !important;
+    min-height: 120px !important;
+    max-height: 200px !important;
+  }
+  .slider-img,
+  .bg-img {
+    height: 100% !important;
+    width: auto !important;
+    max-width: 100% !important;
+    object-fit: contain !important;
+  }
+}
