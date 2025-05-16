@@ -119,7 +119,7 @@ a {
                 max-width: 400px;} }
                 @media (max-width: 992px) {
                   .hero .intro-excerpt {
-                    margin-top: -250px;} }
+                    } }
           .hero h1 {
             font-weight: 700;
             color: #ffffff;
