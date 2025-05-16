@@ -58,7 +58,7 @@ a {
     .custom-navbar-cta li a svg{
       color: #e7dbc1 !important;
     }
-    @media (min-width: 768px) {
+    @media (min-width: 991px) {
       .custom-navbar .custom-navbar-nav li a:before {
         content: "";
         position: absolute;
@@ -87,7 +87,7 @@ a {
     -webkit-box-direction: normal;
     -ms-flex-direction: row;
     flex-direction: row; }
-    @media (min-width: 768px) {
+    @media (min-width: 991px) {
       .custom-navbar .custom-navbar-cta {
         margin-left: 40px !important; } }
     .custom-navbar .custom-navbar-cta li {
@@ -147,7 +147,7 @@ a {
       z-index: 2;
       max-width: 780px;
       left: -20px; }
-      @media (min-width: 768px) {
+      @media (min-width: 991px) {
         .hero .hero-img-wrap img {
           right: 0px;
           left: -100px; } }
@@ -177,7 +177,7 @@ a {
         .hero .hero-img-wrap:after {
           top: -40px; } }
 
-          @media (max-width: 992px) { /* Limita o estilo apenas para telas menores que 768px */
+          @media (max-width: 991px) { /* Limita o estilo apenas para telas menores que 991px */
             .hero .row {
               display: flex; /* Ativa o Flexbox */
               flex-wrap: wrap; /* Permite quebra de linha */
