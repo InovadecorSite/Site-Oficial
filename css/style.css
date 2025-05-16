@@ -752,7 +752,7 @@ textarea {
   z-index: 1;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 992px) {
   .slider-img {
     width: 100%; /* Ajusta a largura para telas menores */
     height: auto; /* Mantém a proporção */
