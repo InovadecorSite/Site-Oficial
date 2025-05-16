@@ -211,6 +211,7 @@ a {
               
                 .hero .col-lg-7 {
                   order: 1; /* Imagem no topo */
+                  text-align: center; /* Centraliza a imagem */
                 }
               
                 .hero .col-lg-5 {
