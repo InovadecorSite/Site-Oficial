@@ -791,6 +791,11 @@ progress {
 .gx-5 {
   --bs-gutter-x: 3rem;
 }
+@media (max-width: 992px) {
+  .g-5, .gx-5 {
+    --bs-gutter-x: 1rem;
+  }
+}
 .g-5,
 .gy-5 {
   --bs-gutter-y: 3rem;
